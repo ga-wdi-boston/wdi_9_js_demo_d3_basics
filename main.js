@@ -1,5 +1,5 @@
 window.onload = function() {
-  var data = [4, 8, 15, 16, 23, 42];
+  var data = [4, 8, 15, 132386, 23, 42948, 1012320, 3, 4, 8, 80];
   var x = d3.scale.linear()
     .domain([0, d3.max(data)])
     .range([0, 800]);
@@ -12,3 +12,4 @@ window.onload = function() {
       .text(function(d) { return d; }); // Setting the text. Note the D is the same, passed a function
 
 };
+
