@@ -9,12 +9,12 @@ var yScale = d3.scale.linear()
   .range([height, 0]);
 
 var xAxis = d3.svg.axis()
-    .scale(xScale)
-    .orient("bottom");
+  .scale(xScale)
+  .orient("bottom");
 
 var yAxis = d3.svg.axis()
-    .scale(yScale)
-    .orient("left");
+  .scale(yScale)
+  .orient("left");
 
 var containerGroup = d3.select("#svg-chart")
     .attr("width", width + margin.left + margin.right)
