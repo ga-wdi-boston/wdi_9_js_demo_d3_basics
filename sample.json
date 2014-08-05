@@ -2,21 +2,21 @@
   {
     "name": "David",
     "age": 31,
-    "year_experience": 5
+    "yearsExperience": 5
   },
   {
     "name": "Tom",
     "age": 50,
-    "year_experience": 15
+    "yearsExperience": 15
   },
   {
     "name": "Chris",
     "age": 32,
-    "year_experience": 6
+    "yearsExperience": 6
   },
   {
     "name": "Alex",
-    "age": 29,
-    "year_experience": 5
+    "age": 25,
+    "yearsExperience": 3
   }
 ]

@@ -1,7 +1,5 @@
-# Charting with D3
+# D3 Basics
 
-To run the server which is needed to access the .tsv and .json files using JavaScript, run the following in your terminal:
+See the **[D3 API Reference](https://github.com/mbostock/d3/wiki/API-Reference)**.
 
-    ruby -r webrick -e "s = WEBrick::HTTPServer.new(:Port => 8000, :DocumentRoot => Dir.pwd); trap('INT') { s.shutdown }; s.start"
-
-And then visit [localhost:8000](http://localhost:8000/)
+To access the local CSV and JSON files using Ajax requests, they must be available over HTTP. Run `python -m SimpleHTTPServer` in this directory, and the files will be served on [localhost:8000](http://localhost:8000/).

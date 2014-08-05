@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
-  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-  <script src="main.js" type="text/javascript" charset="utf-8" async defer></script>
+  <title>D3 Basics</title>
   <link rel="stylesheet" href="style.css">
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="demo.js" type="text/javascript" defer></script>
+  <!-- "defer" tells the browser not to run the script until it's done parsing
+  the document. Normally we'd use $(document).ready to get around this instead,
+  but we otherwise have no reason to include jQuery for this demo. -->
 </head>
 <body>
-  <h1>Learning D3</h1>
-  <h2>Charting</h2>
-  <p>Variable chaining returns this, so you can keep applying operations to a selection. Select with any DOM API selector.</p>
-  <p>Some methods return a new selection however, like .append</p>
+  <h1>D3 Basics</h1>
 
-  <div class="chart"></div>
+  <ul id="simple-list">
+  </ul>
+
+  <div id="html-chart">
+  </div>
+
+  <svg id="svg-chart" width="800" height="400">
+  </svg>
 </body>
 </html>

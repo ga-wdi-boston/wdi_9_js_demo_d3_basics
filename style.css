@@ -1,16 +1,16 @@
-.chart div {
-  font: 10px sans-serif;
+/* Styles for HTML chart */
+
+#html-chart div {
+  font-family: sans-serif;
   background-color: steelblue;
   text-align: right;
-  padding: 3px;
-  margin: 1px;
+  padding: 3px 5px;
+  margin: 3px;
   color: white;
 }
 
+/* Styles for advanced SVG chart */
 
-
-
-/*
 .bar {
   fill: steelblue;
 }
@@ -22,11 +22,6 @@
 .axis path,
 .axis line {
   fill: none;
-  stroke: #000;
+  stroke: black;
   shape-rendering: crispEdges;
 }
-
-.x.axis path {
-  display: none;
-}
-*/
