@@ -15,6 +15,19 @@
   fill: steelblue;
 }
 
+.bar-2006 { fill: #fc9; }
+.bar-2007 { fill: #f69; }
+.bar-2008 { fill: #99c; }
+.bar-2009 { fill: #93c; }
+.bar-2010 { fill: #699; }
+.bar-2011 { fill: #39c; }
+.bar-2012 { fill: #063; }
+.bar-text {
+  font-family: sans-serif;
+  font-size: 8px;
+  color: #000;
+}
+
 .axis text {
   font: 10px sans-serif;
 }
